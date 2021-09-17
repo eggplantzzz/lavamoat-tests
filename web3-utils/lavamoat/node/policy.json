@@ -1,0 +1,60 @@
+{
+  "resources": {
+    "bn.js": {
+      "builtin": {
+        "buffer.Buffer": true
+      },
+      "globals": {
+        "Buffer": true
+      }
+    },
+    "ethereum-bloom-filters": {
+      "packages": {
+        "js-sha3": true
+      }
+    },
+    "ethjs-unit": {
+      "packages": {
+        "bn.js": true,
+        "number-to-bn": true
+      }
+    },
+    "js-sha3": {
+      "globals": {
+        "define": true,
+        "process": true
+      }
+    },
+    "number-to-bn": {
+      "packages": {
+        "bn.js": true,
+        "strip-hex-prefix": true
+      }
+    },
+    "randombytes": {
+      "builtin": {
+        "crypto.randomBytes": true
+      }
+    },
+    "strip-hex-prefix": {
+      "packages": {
+        "is-hex-prefixed": true
+      }
+    },
+    "web3-utils": {
+      "globals": {
+        "Buffer.isBuffer": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "bn.js": true,
+        "eth-lib": true,
+        "ethereum-bloom-filters": true,
+        "ethjs-unit": true,
+        "number-to-bn": true,
+        "randombytes": true,
+        "utf8": true
+      }
+    }
+  }
+}

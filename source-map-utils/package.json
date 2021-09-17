@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@truffle/source-map-utils": "^1.3.57"
+  }
+}

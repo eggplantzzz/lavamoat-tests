@@ -1,0 +1,19 @@
+{
+  "resources": {
+    "colors": {
+      "builtin": {
+        "os.release": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "console.log": true,
+        "process.argv": true,
+        "process.env": true,
+        "process.platform": true,
+        "process.stderr": true,
+        "process.stdout": true,
+        "process.versions.node.split": true
+      }
+    }
+  }
+}

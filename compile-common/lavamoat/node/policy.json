@@ -1,0 +1,155 @@
+{
+  "resources": {
+    "@truffle/compile-common": {
+      "builtin": {
+        "fs": true,
+        "path": true
+      },
+      "packages": {
+        "@truffle/contract-sources": true,
+        "@truffle/error": true,
+        "@truffle/expect": true,
+        "colors": true,
+        "debug": true
+      }
+    },
+    "@truffle/contract-sources": {
+      "builtin": {
+        "path.join": true,
+        "util.promisify": true
+      },
+      "packages": {
+        "debug": true,
+        "glob": true
+      }
+    },
+    "brace-expansion": {
+      "packages": {
+        "balanced-match": true,
+        "concat-map": true
+      }
+    },
+    "colors": {
+      "builtin": {
+        "os.release": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "console.log": true,
+        "process.argv": true,
+        "process.env": true,
+        "process.platform": true,
+        "process.stderr": true,
+        "process.stdout": true,
+        "process.versions.node.split": true
+      }
+    },
+    "debug": {
+      "builtin": {
+        "tty.isatty": true,
+        "util.deprecate": true,
+        "util.format": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "console": true,
+        "document": true,
+        "localStorage": true,
+        "navigator": true,
+        "process": true
+      },
+      "packages": {
+        "ms": true
+      }
+    },
+    "fs.realpath": {
+      "builtin": {
+        "fs.lstat": true,
+        "fs.lstatSync": true,
+        "fs.readlink": true,
+        "fs.readlinkSync": true,
+        "fs.realpath": true,
+        "fs.realpathSync": true,
+        "fs.stat": true,
+        "fs.statSync": true,
+        "path.normalize": true,
+        "path.resolve": true
+      },
+      "globals": {
+        "console.error": true,
+        "console.trace": true,
+        "process.env.NODE_DEBUG": true,
+        "process.nextTick": true,
+        "process.noDeprecation": true,
+        "process.platform": true,
+        "process.throwDeprecation": true,
+        "process.traceDeprecation": true,
+        "process.version": true
+      }
+    },
+    "glob": {
+      "builtin": {
+        "assert": true,
+        "events.EventEmitter": true,
+        "fs.lstat": true,
+        "fs.lstatSync": true,
+        "fs.readdir": true,
+        "fs.readdirSync": true,
+        "fs.stat": true,
+        "fs.statSync": true,
+        "path.join": true,
+        "path.resolve": true,
+        "util": true
+      },
+      "globals": {
+        "console.error": true,
+        "process.cwd": true,
+        "process.nextTick": true,
+        "process.platform": true
+      },
+      "packages": {
+        "fs.realpath": true,
+        "inflight": true,
+        "inherits": true,
+        "minimatch": true,
+        "once": true,
+        "path-is-absolute": true
+      }
+    },
+    "inflight": {
+      "globals": {
+        "process.nextTick": true
+      },
+      "packages": {
+        "once": true,
+        "wrappy": true
+      }
+    },
+    "inherits": {
+      "builtin": {
+        "util.inherits": true
+      }
+    },
+    "minimatch": {
+      "builtin": {
+        "path": true
+      },
+      "globals": {
+        "console.error": true
+      },
+      "packages": {
+        "brace-expansion": true
+      }
+    },
+    "once": {
+      "packages": {
+        "wrappy": true
+      }
+    },
+    "path-is-absolute": {
+      "globals": {
+        "process.platform": true
+      }
+    }
+  }
+}

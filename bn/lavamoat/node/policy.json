@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "bn.js": {
+      "builtin": {
+        "buffer.Buffer": true
+      },
+      "globals": {
+        "Buffer": true
+      }
+    }
+  }
+}

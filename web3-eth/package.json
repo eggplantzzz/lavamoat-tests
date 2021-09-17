@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lavamoat": "^5.3.2",
+    "web3-eth": "^1.5.2"
+  }
+}

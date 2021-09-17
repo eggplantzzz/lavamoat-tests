@@ -1,0 +1,138 @@
+{
+  "resources": {
+    "@truffle/abi-utils": {
+      "packages": {
+        "change-case": true,
+        "faker": true,
+        "fast-check": true
+      }
+    },
+    "camel-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "change-case": {
+      "packages": {
+        "camel-case": true,
+        "constant-case": true,
+        "dot-case": true,
+        "header-case": true,
+        "is-lower-case": true,
+        "is-upper-case": true,
+        "lower-case": true,
+        "lower-case-first": true,
+        "no-case": true,
+        "param-case": true,
+        "pascal-case": true,
+        "path-case": true,
+        "sentence-case": true,
+        "snake-case": true,
+        "swap-case": true,
+        "title-case": true,
+        "upper-case": true,
+        "upper-case-first": true
+      }
+    },
+    "constant-case": {
+      "packages": {
+        "snake-case": true,
+        "upper-case": true
+      }
+    },
+    "dot-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "faker": {
+      "globals": {
+        "console.error": true,
+        "console.log": true,
+        "dbg": "write"
+      }
+    },
+    "fast-check": {
+      "globals": {
+        "Buffer": true,
+        "clearTimeout": true,
+        "console.log": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "pure-rand": true
+      }
+    },
+    "header-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "is-lower-case": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "is-upper-case": {
+      "packages": {
+        "upper-case": true
+      }
+    },
+    "lower-case-first": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "no-case": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "param-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "pascal-case": {
+      "packages": {
+        "camel-case": true,
+        "upper-case-first": true
+      }
+    },
+    "path-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "sentence-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case-first": true
+      }
+    },
+    "snake-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "swap-case": {
+      "packages": {
+        "lower-case": true,
+        "upper-case": true
+      }
+    },
+    "title-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "upper-case-first": {
+      "packages": {
+        "upper-case": true
+      }
+    }
+  }
+}

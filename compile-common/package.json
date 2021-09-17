@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@truffle/compile-common": "^0.7.19"
+  }
+}

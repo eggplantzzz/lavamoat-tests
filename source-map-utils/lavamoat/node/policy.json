@@ -1,0 +1,455 @@
+{
+  "resources": {
+    "@truffle/abi-utils": {
+      "packages": {
+        "change-case": true,
+        "faker": true,
+        "fast-check": true
+      }
+    },
+    "@truffle/code-utils": {
+      "globals": {
+        "Buffer.from": true
+      },
+      "packages": {
+        "cbor": true
+      }
+    },
+    "@truffle/codec": {
+      "builtin": {
+        "util": true
+      },
+      "globals": {
+        "Buffer.from": true
+      },
+      "packages": {
+        "@truffle/abi-utils": true,
+        "@truffle/compile-common": true,
+        "big.js": true,
+        "bn.js": true,
+        "cbor": true,
+        "debug": true,
+        "lodash.clonedeep": true,
+        "lodash.escaperegexp": true,
+        "lodash.partition": true,
+        "lodash.sum": true,
+        "semver": true,
+        "utf8": true,
+        "web3-utils": true
+      }
+    },
+    "@truffle/compile-common": {
+      "builtin": {
+        "fs": true,
+        "path": true
+      },
+      "packages": {
+        "@truffle/contract-sources": true,
+        "@truffle/error": true,
+        "@truffle/expect": true,
+        "colors": true,
+        "debug": true
+      }
+    },
+    "@truffle/contract-sources": {
+      "builtin": {
+        "path.join": true,
+        "util.promisify": true
+      },
+      "packages": {
+        "debug": true,
+        "glob": true
+      }
+    },
+    "@truffle/source-map-utils": {
+      "packages": {
+        "@truffle/code-utils": true,
+        "@truffle/codec": true,
+        "debug": true,
+        "json-pointer": true,
+        "node-interval-tree": true,
+        "web3-utils": true
+      }
+    },
+    "big.js": {
+      "globals": {
+        "define": true
+      }
+    },
+    "bignumber.js": {
+      "globals": {
+        "crypto": true,
+        "define": true
+      }
+    },
+    "bn.js": {
+      "builtin": {
+        "buffer.Buffer": true
+      },
+      "globals": {
+        "Buffer": true
+      }
+    },
+    "brace-expansion": {
+      "packages": {
+        "balanced-match": true,
+        "concat-map": true
+      }
+    },
+    "camel-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "cbor": {
+      "builtin": {
+        "stream.Readable": true,
+        "stream.Transform": true,
+        "url": true,
+        "util.TextDecoder": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "Buffer.allocUnsafe": true,
+        "Buffer.byteLength": true,
+        "Buffer.concat": true,
+        "Buffer.from": true,
+        "Buffer.isBuffer": true,
+        "TextDecoder": true
+      },
+      "packages": {
+        "bignumber.js": true,
+        "nofilter": true
+      }
+    },
+    "change-case": {
+      "packages": {
+        "camel-case": true,
+        "constant-case": true,
+        "dot-case": true,
+        "header-case": true,
+        "is-lower-case": true,
+        "is-upper-case": true,
+        "lower-case": true,
+        "lower-case-first": true,
+        "no-case": true,
+        "param-case": true,
+        "pascal-case": true,
+        "path-case": true,
+        "sentence-case": true,
+        "snake-case": true,
+        "swap-case": true,
+        "title-case": true,
+        "upper-case": true,
+        "upper-case-first": true
+      }
+    },
+    "colors": {
+      "builtin": {
+        "os.release": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "console.log": true,
+        "process.argv": true,
+        "process.env": true,
+        "process.platform": true,
+        "process.stderr": true,
+        "process.stdout": true,
+        "process.versions.node.split": true
+      }
+    },
+    "constant-case": {
+      "packages": {
+        "snake-case": true,
+        "upper-case": true
+      }
+    },
+    "debug": {
+      "builtin": {
+        "tty.isatty": true,
+        "util.deprecate": true,
+        "util.format": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "console": true,
+        "document": true,
+        "localStorage": true,
+        "navigator": true,
+        "process": true
+      },
+      "packages": {
+        "ms": true
+      }
+    },
+    "dot-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "ethereum-bloom-filters": {
+      "packages": {
+        "js-sha3": true
+      }
+    },
+    "ethjs-unit": {
+      "packages": {
+        "bn.js": true,
+        "number-to-bn": true
+      }
+    },
+    "faker": {
+      "globals": {
+        "console.error": true,
+        "console.log": true,
+        "dbg": "write"
+      }
+    },
+    "fast-check": {
+      "globals": {
+        "Buffer": true,
+        "clearTimeout": true,
+        "console.log": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "pure-rand": true
+      }
+    },
+    "fs.realpath": {
+      "builtin": {
+        "fs.lstat": true,
+        "fs.lstatSync": true,
+        "fs.readlink": true,
+        "fs.readlinkSync": true,
+        "fs.realpath": true,
+        "fs.realpathSync": true,
+        "fs.stat": true,
+        "fs.statSync": true,
+        "path.normalize": true,
+        "path.resolve": true
+      },
+      "globals": {
+        "console.error": true,
+        "console.trace": true,
+        "process.env.NODE_DEBUG": true,
+        "process.nextTick": true,
+        "process.noDeprecation": true,
+        "process.platform": true,
+        "process.throwDeprecation": true,
+        "process.traceDeprecation": true,
+        "process.version": true
+      }
+    },
+    "glob": {
+      "builtin": {
+        "assert": true,
+        "events.EventEmitter": true,
+        "fs.lstat": true,
+        "fs.lstatSync": true,
+        "fs.readdir": true,
+        "fs.readdirSync": true,
+        "fs.stat": true,
+        "fs.statSync": true,
+        "path.join": true,
+        "path.resolve": true,
+        "util": true
+      },
+      "globals": {
+        "console.error": true,
+        "process.cwd": true,
+        "process.nextTick": true,
+        "process.platform": true
+      },
+      "packages": {
+        "fs.realpath": true,
+        "inflight": true,
+        "inherits": true,
+        "minimatch": true,
+        "once": true,
+        "path-is-absolute": true
+      }
+    },
+    "header-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "inflight": {
+      "globals": {
+        "process.nextTick": true
+      },
+      "packages": {
+        "once": true,
+        "wrappy": true
+      }
+    },
+    "inherits": {
+      "builtin": {
+        "util.inherits": true
+      }
+    },
+    "is-lower-case": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "is-upper-case": {
+      "packages": {
+        "upper-case": true
+      }
+    },
+    "js-sha3": {
+      "globals": {
+        "define": true,
+        "process": true
+      }
+    },
+    "json-pointer": {
+      "packages": {
+        "foreach": true
+      }
+    },
+    "lower-case-first": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "lru-cache": {
+      "packages": {
+        "yallist": true
+      }
+    },
+    "minimatch": {
+      "builtin": {
+        "path": true
+      },
+      "globals": {
+        "console.error": true
+      },
+      "packages": {
+        "brace-expansion": true
+      }
+    },
+    "no-case": {
+      "packages": {
+        "lower-case": true
+      }
+    },
+    "node-interval-tree": {
+      "packages": {
+        "shallowequal": true
+      }
+    },
+    "nofilter": {
+      "builtin": {
+        "stream.Transform": true,
+        "util.TextDecoder": true,
+        "util.inspect": true
+      },
+      "globals": {
+        "Buffer.alloc": true,
+        "Buffer.concat": true,
+        "Buffer.from": true,
+        "Buffer.isBuffer": true
+      }
+    },
+    "number-to-bn": {
+      "packages": {
+        "bn.js": true,
+        "strip-hex-prefix": true
+      }
+    },
+    "once": {
+      "packages": {
+        "wrappy": true
+      }
+    },
+    "param-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "pascal-case": {
+      "packages": {
+        "camel-case": true,
+        "upper-case-first": true
+      }
+    },
+    "path-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "path-is-absolute": {
+      "globals": {
+        "process.platform": true
+      }
+    },
+    "randombytes": {
+      "builtin": {
+        "crypto.randomBytes": true
+      }
+    },
+    "semver": {
+      "globals": {
+        "console.error": true,
+        "process": true
+      },
+      "packages": {
+        "lru-cache": true
+      }
+    },
+    "sentence-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case-first": true
+      }
+    },
+    "snake-case": {
+      "packages": {
+        "no-case": true
+      }
+    },
+    "strip-hex-prefix": {
+      "packages": {
+        "is-hex-prefixed": true
+      }
+    },
+    "swap-case": {
+      "packages": {
+        "lower-case": true,
+        "upper-case": true
+      }
+    },
+    "title-case": {
+      "packages": {
+        "no-case": true,
+        "upper-case": true
+      }
+    },
+    "upper-case-first": {
+      "packages": {
+        "upper-case": true
+      }
+    },
+    "web3-utils": {
+      "globals": {
+        "Buffer.isBuffer": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "bn.js": true,
+        "eth-lib": true,
+        "ethereum-bloom-filters": true,
+        "ethjs-unit": true,
+        "number-to-bn": true,
+        "randombytes": true,
+        "utf8": true
+      }
+    }
+  }
+}
